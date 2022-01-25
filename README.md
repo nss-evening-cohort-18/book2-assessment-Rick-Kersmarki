@@ -1,1 +1,0 @@
-# book2-assessment-Rick-Kersmarki

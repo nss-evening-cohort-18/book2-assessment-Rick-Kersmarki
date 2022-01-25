@@ -14,6 +14,27 @@ const flowers = [
 
 ]
 
+<<<<<<< HEAD
+=======
+const daisy = {
+    color: "pink",
+    species: "daisy",
+    price: .95
+}
+
+const daffodil = {
+    color: "yellow",
+    species: "Daffodil",
+    price: .40
+}
+
+const orchid = {
+    color: "blue",
+    species: "Orchid",
+    price: 1.05
+}
+
+>>>>>>> 87b7b8e6aba52610bf26b6657cf4f0ee3db7745a
 const addFlower = (flowerObject) => {
     flowerObject.id = flowers.length + 1
     flowers.push(flowerObject)
@@ -30,13 +51,25 @@ const addFlower = (flowerObject) => {
     */
 }
 
+<<<<<<< HEAD
+=======
+addFlower(daisy)
+addFlower(daffodil)
+addFlower(orchid)
+// console.log(flowers)
+
+>>>>>>> 87b7b8e6aba52610bf26b6657cf4f0ee3db7745a
 const findExpensiveFlowers = (Object) => {
     const expensiveFlowers = []  // Do not change this code
     for (const flower of flowers) {
         if (flower.price >= 1.00) {
             expensiveFlowers.push(flower)
+<<<<<<< HEAD
             }
         }
+=======
+            }}
+>>>>>>> 87b7b8e6aba52610bf26b6657cf4f0ee3db7745a
 
    
     /*object
@@ -45,10 +78,18 @@ const findExpensiveFlowers = (Object) => {
         greater than or equal to 1.00, it should be
         added to the `expensiveFlowers` array.
     */
+<<<<<<< HEAD
     console.log(expensiveFlowers)
     
     return expensiveFlowers  // Do not change this code
 
+=======
+
+    console.log(expensiveFlowers)
+    // console.log(expensiveFlowers)
+    return expensiveFlowers  // Do not change this code
+    // console.log(expensiveFlowers)
+>>>>>>> 87b7b8e6aba52610bf26b6657cf4f0ee3db7745a
 }
 
 findExpensiveFlowers(flowers)
