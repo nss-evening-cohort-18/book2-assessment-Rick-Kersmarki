@@ -14,24 +14,6 @@ const flowers = [
 
 ]
 
-const daisy = {
-    color: "pink",
-    species: "daisy",
-    price: .95
-}
-
-const daffodil = {
-    color: "yellow",
-    species: "Daffodil",
-    price: .40
-}
-
-const orchid = {
-    color: "blue",
-    species: "Orchid",
-    price: 1.05
-}
-
 const addFlower = (flowerObject) => {
     flowerObject.id = flowers.length + 1
     flowers.push(flowerObject)
@@ -47,11 +29,6 @@ const addFlower = (flowerObject) => {
         `flowers` array.
     */
 }
-
-addFlower(daisy)
-addFlower(daffodil)
-addFlower(orchid)
-// console.log(flowers)
 
 const findExpensiveFlowers = (Object) => {
     const expensiveFlowers = []  // Do not change this code
